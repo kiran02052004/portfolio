@@ -1,21 +1,23 @@
 {
+    
     "locales": {
       "en": {
-        "title": "Portfolio",
+        "title": "Projects",
         "title_long_prefix": "Take a look at",
-        "title_long": "My **Portfolio**"
+        "title_long": "My **Projects**"
       },
       "mr": {
-        "title": "पोर्टफोलिओ",
+        "title": "प्रकल्प",
         "title_long_prefix": "एक नजर टाका",
-        "title_long": "माझा **पोर्टफोलिओ**"
+        "title_long": "माझे **प्रकल्प**"
       },
       "hi": {
-        "title": "पोर्टफोलियो",
+        "title": "प्रोजेक्ट्स",
         "title_long_prefix": "एक नज़र डालें",
-        "title_long": "मेरा **पोर्टफोलियो**"
+        "title_long": "मेरे **प्रोजेक्ट्स**"
       }
     },
+
     "articles": [
       {
         "id": "portfolio",
@@ -44,8 +46,8 @@
           {
             "categoryId": "apps",
             "icon": {
-              "img": null,
-              "fa": "fa-solid fa-cloud-sun",
+              "img": "images/pictures/weather.jpg",
+              "fa": null,
               "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
             },
             "links": [
@@ -76,7 +78,7 @@
           {
             "categoryId": "utilities",
             "icon": {
-              "img": "images/pictures/project-logo-2.png",
+              "img": "images/pictures/spam.jpeg",
               "fa": "",
               "faColors": { "bg": null, "fill": null }
             },
@@ -109,7 +111,7 @@
           {
             "categoryId": "utilities",
             "icon": {
-              "img": "images/pictures/project-logo-3.png",
+              "img": "images/pictures/fuel.jpg",
               "fa": "",
               "faColors": { "bg": null, "fill": null }
             },
@@ -137,7 +139,73 @@
                 "tags": ["Java", "JDBC", "SQL"]
               }
             }
-          }
+          },
+          {
+  "categoryId": "utilities",
+  "icon": {
+    "img": "images/pictures/codecollab.jpg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+  "links": [
+    { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/CodeCollab.git" }
+  ],
+  "media": {
+    "youtubeVideo": "",
+    "screenshots": { "aspectRatio": null, "images": [] }
+  },
+  "locales": {
+    "en": {
+      "title": "Code Collab - AI-Powered Real-time Code Editor",
+      "text": "Built an <b>online collaborative code editor</b> using <b>MERN stack</b>, <b>Socket.IO</b>, and <b>OpenAI API</b>. Integrated <b>Monaco Editor</b> for syntax highlighting, multi-language support, and smooth editing. Added an <b>AI assistant</b> to explain, debug, and optimize code in real time. Designed a <b>responsive UI</b> with React, Tailwind CSS, and Vite, and secured sessions using <b>JWT authentication</b>.",
+      "tags": ["MERN", "Socket.IO", "OpenAI API", "React", "Tailwind"]
+    },
+    "mr": {
+      "title": "कोड कोलॅब - एआय समर्थित रिअल-टाइम कोड एडिटर",
+      "text": "<b>MERN स्टॅक</b>, <b>Socket.IO</b>, आणि <b>OpenAI API</b> वापरून तयार केलेला <b>ऑनलाइन सहकार्यात्मक कोड एडिटर</b>. <b>Monaco Editor</b> द्वारे सिंटॅक्स हायलाइटिंग, मल्टी-लँग्वेज सपोर्ट आणि स्मूथ एडिटिंग प्रदान केले. <b>AI असिस्टंट</b> कोड समजावणे, डिबग करणे आणि ऑप्टिमाइझ करण्यासाठी समाविष्ट केले. React, Tailwind CSS आणि Vite वापरून प्रतिसादक्षम UI डिझाइन केला आणि <b>JWT authentication</b> द्वारे सुरक्षित केले.",
+      "tags": ["MERN", "Socket.IO", "OpenAI API", "React", "Tailwind"]
+    },
+    "hi": {
+      "title": "कोड कोलैब - एआई-संचालित रीयल-टाइम कोड एडिटर",
+      "text": "<b>MERN स्टैक</b>, <b>Socket.IO</b> और <b>OpenAI API</b> का उपयोग करके विकसित एक <b>ऑनलाइन सहयोगात्मक कोड एडिटर</b>। <b>Monaco Editor</b> को सिंटैक्स हाइलाइटिंग, मल्टी-लैंग्वेज सपोर्ट और स्मूथ एडिटिंग के लिए इंटीग्रेट किया। <b>AI असिस्टेंट</b> कोड को समझाने, डिबग करने और ऑप्टिमाइज़ करने के लिए लागू किया। React, Tailwind CSS और Vite का उपयोग करके रेस्पॉन्सिव UI बनाया और <b>JWT authentication</b> के साथ सुरक्षित किया।",
+      "tags": ["MERN", "Socket.IO", "OpenAI API", "React", "Tailwind"]
+    }
+  }
+},
+{
+  "categoryId": "utilities",
+  "icon": {
+    "img": "images/pictures/medical-pharmacy.jpg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+  "links": [
+    { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/PharmacyManagementSystem.git" }
+  ],
+  "media": {
+    "youtubeVideo": "",
+    "screenshots": { "aspectRatio": null, "images": [] }
+  },
+  "locales": {
+    "en": {
+      "title": "Pharmacy Management System",
+      "text": "Developed a <b>Java Servlet, JSP, and JDBC</b>-based system with <b>MySQL database</b> for pharmacy operations. Implemented pharmacist, supplier, and admin portals with <b>role-based access control</b>. Automated inventory management, supplier records, and billing processes, improving efficiency by 40%. Ensured secure login and smooth data handling with JDBC integration.",
+      "tags": ["Java", "Servlet", "JSP", "JDBC", "MySQL"]
+    },
+    "mr": {
+      "title": "फार्मसी व्यवस्थापन प्रणाली",
+      "text": "<b>Java Servlet, JSP, JDBC</b> आणि <b>MySQL डेटाबेस</b> वापरून फार्मसी ऑपरेशन्ससाठी प्रणाली विकसित केली. फार्मासिस्ट, सप्लायर आणि अॅडमिन पोर्टल्स <b>भूमिकेवर आधारित प्रवेश नियंत्रणासह</b> लागू केले. इन्व्हेंटरी मॅनेजमेंट, सप्लायर रेकॉर्ड्स आणि बिलिंग प्रक्रिया स्वयंचलित करून कार्यक्षमता 40% ने वाढवली. सुरक्षित लॉगिन आणि JDBC इंटिग्रेशनद्वारे स्मूथ डेटा हँडलिंग सुनिश्चित केले.",
+      "tags": ["Java", "Servlet", "JSP", "JDBC", "MySQL"]
+    },
+    "hi": {
+      "title": "फार्मेसी प्रबंधन प्रणाली",
+      "text": "<b>Java Servlet, JSP, JDBC</b> और <b>MySQL डेटाबेस</b> का उपयोग करके फार्मेसी संचालन के लिए एक प्रणाली विकसित की। फार्मासिस्ट, सप्लायर और एडमिन पोर्टल्स को <b>भूमिका-आधारित एक्सेस कंट्रोल</b> के साथ लागू किया। इन्वेंटरी मैनेजमेंट, सप्लायर रिकॉर्ड्स और बिलिंग प्रक्रियाओं को स्वचालित करके दक्षता में 40% सुधार किया। JDBC इंटीग्रेशन और सुरक्षित लॉगिन के साथ सुचारू डेटा हैंडलिंग सुनिश्चित की।",
+      "tags": ["Java", "Servlet", "JSP", "JDBC", "MySQL"]
+    }
+  }
+}
+
+
           
         ]
       }

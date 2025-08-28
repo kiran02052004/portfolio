@@ -1,60 +1,148 @@
 {
-    "locales": {
-        "en": {
-            "title": "Internship",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Internship** Experience"
-        },
-        "hi": {
-            "title": "इंटर्नशिप",
-            "title_long_prefix": "मेरी",
-            "title_long": "**इंटर्नशिप** का सारांश"
-        },
-        "mr": {
-            "title": "इंटर्नशिप",
-            "title_long_prefix": "माझ्या",
-            "title_long": "**इंटर्नशिप**चा सारांश"
-        }
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Internship** Experience"
     },
-    "articles": [
+    "hi": {
+      "title": "अनुभव",
+      "title_long_prefix": "मेरी",
+      "title_long": "**इंटर्नशिप** का सारांश"
+    },
+    "mr": {
+      "title": "अनुभव",
+      "title_long_prefix": "माझ्या",
+      "title_long": "**इंटर्नशिप**चा सारांश"
+    }
+  },
+  "articles": [
+    {
+      "id": "experience",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
         {
-            "id": "internship",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "dates": {
-                        "start": "08/01/2024",
-                        "end": "10/01/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend Development** Intern",
-                            "info": "R3Sys (Remote)",
-                            "text": "Worked on a Java-based web application, focusing on backend service development and maintenance. Gained practical experience with Java, Servlets, JDBC, and web technologies. Collaborated on application logic, database integration, and feature enhancements for improved performance.",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        },
-                        "hi": {
-                            "title": "**बैकएंड डेवलपमेंट** इंटर्न",
-                            "info": "R3Sys (रिमोट)",
-                            "text": "जावा-आधारित वेब एप्लिकेशन पर काम किया, जिसमें बैकएंड सेवा विकास और रखरखाव पर ध्यान केंद्रित किया गया। जावा, सर्वलेट्स, JDBC और वेब तकनीकों के साथ व्यावहारिक अनुभव प्राप्त किया। प्रदर्शन सुधार के लिए एप्लिकेशन लॉजिक, डेटाबेस एकीकरण और फीचर संवर्द्धन पर सहयोग किया।",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        },
-                        "mr": {
-                            "title": "**बॅकएंड डेव्हलपमेंट** इंटर्न",
-                            "info": "R3Sys (रिमोट)",
-                            "text": "जावा-आधारित वेब अनुप्रयोगावर काम केले, विशेषतः बॅकएंड सेवा विकास आणि देखभालीवर लक्ष केंद्रित केले. Java, Servlets, JDBC आणि वेब तंत्रज्ञानासह व्यावहारिक अनुभव मिळाला. कार्यक्षमता सुधारण्यासाठी अनुप्रयोग लॉजिक, डेटाबेस एकत्रीकरण आणि फिचर सुधारणा यावर सहकार्य केले.",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        }
-                    }
+          "icon": {
+            "img": "images/pictures/aicte.jpeg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "06/01/2025",
+            "end": "07/31/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "AICTE Internship – Edunet Foundation, IBM SkillsBuild",
+              "info": "AICTE & IBM SkillsBuild (Remote)",
+              "text": "Implemented AI models for image classification and fraud detection, achieving over 85% accuracy. Earned certification in model training and data analytics fundamentals. Applied skills to 3 applied projects demonstrating practical AI/ML implementation.",
+              "tags": ["AI", "ML", "IBM SkillsBuild", "Python"]
+            },
+            "hi": {
+              "title": "AICTE इंटर्नशिप – Edunet Foundation, IBM SkillsBuild",
+              "info": "AICTE और IBM SkillsBuild (रिमोट)",
+              "text": "इमेज क्लासिफिकेशन और फ्रॉड डिटेक्शन के लिए AI मॉडल लागू किए, 85%+ सटीकता प्राप्त की। मॉडल ट्रेनिंग और डेटा एनालिटिक्स की मूल बातें में प्रमाणन प्राप्त किया। 3 प्रोजेक्ट्स में AI/ML का व्यावहारिक उपयोग किया।",
+              "tags": ["AI", "ML", "IBM SkillsBuild", "Python"]
+            },
+            "mr": {
+              "title": "AICTE इंटर्नशिप – Edunet Foundation, IBM SkillsBuild",
+              "info": "AICTE आणि IBM SkillsBuild (रिमोट)",
+              "text": "इमेज क्लासिफिकेशन आणि फ्रॉड डिटेक्शनसाठी AI मॉडेल्स लागू केले, 85%+ अचूकता मिळवली. मॉडेल ट्रेनिंग आणि डेटा अॅनालिटिक्सच्या मूलभूत बाबींमध्ये प्रमाणपत्र मिळवले. 3 प्रोजेक्ट्समध्ये AI/ML चे व्यावहारिक उपयोग केले.",
+              "tags": ["AI", "ML", "IBM SkillsBuild", "Python"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/Zensar.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2025",
+            "end": "01/31/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "**Employability Skill Development** Program",
+              "info": "RPG Foundation & Zensar Technologies at RCPIT",
+              "text": "Worked on various projects to gain practical experience in modern technologies and frameworks. Enhanced interview readiness and soft skills. Gained hands-on exposure to Java, SQL, and Python.",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            },
+            "hi": {
+              "title": "**एम्प्लॉयबिलिटी स्किल डेवलपमेंट** प्रोग्राम",
+              "info": "RPG Foundation और Zensar Technologies @ RCPIT",
+              "text": "आधुनिक तकनीकों और फ्रेमवर्क्स पर विभिन्न प्रोजेक्ट्स पर काम किया। इंटरव्यू की तैयारी और सॉफ्ट स्किल्स में सुधार हुआ। Java, SQL और Python का व्यावहारिक अनुभव प्राप्त किया।",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            },
+            "mr": {
+              "title": "**नोकरी कौशल्य विकास** कार्यक्रम",
+              "info": "RPG Foundation आणि Zensar Technologies @ RCPIT",
+              "text": "आधुनिक तंत्रज्ञान व फ्रेमवर्कवर प्रोजेक्ट करून व्यावहारिक अनुभव मिळवला. मुलाखतीसाठी तयारी आणि सॉफ्ट स्किल्स सुधारल्या. Java, SQL आणि Python मध्ये अनुभव मिळवला.",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            }
+          }
+        },
+        {
+            "icon": {
+                "img": "images/pictures/Pragatipath.png",
+                "fa": "",
+                "faColors": { "bg": null, "fill": null }
+            },
+            "dates": {
+                "start": "01/01/2025",
+                "end": "04/01/2025"
+            },
+            "locales": {
+                "en": {
+                "title": "Infosys Springboard – Pragati Path Internship",
+                "info": "Remote/Hybrid · Jan 2025 – Apr 2025\n– Delivered 5 Java-based projects using Agile practices and Git-based version control.\n– Completed sprint-based assignments in a virtual team of 4, mentored by Infosys experts."
+                },
+                "hi": {
+                "title": "इन्फोसिस स्प्रिंगबोर्ड – प्रगति पथ इंटर्नशिप",
+                "info": "रिमोट/हाइब्रिड · जनवरी 2025 – अप्रैल 2025\n– एजाइल प्रैक्टिस और गिट वर्ज़न कंट्रोल का उपयोग करके 5 जावा आधारित प्रोजेक्ट पूरे किए।\n– 4 सदस्यों की वर्चुअल टीम में स्प्रिंट आधारित असाइनमेंट पूरे किए, इन्फोसिस विशेषज्ञों द्वारा मेंटर्ड।"
+                },
+                "mr": {
+                "title": "इन्फोसिस स्प्रिंगबोर्ड – प्रगती पथ इंटर्नशिप",
+                "info": "रिमोट/हायब्रिड · जानेवारी 2025 – एप्रिल 2025\n– अजाईल पद्धती आणि Git वर्जन कंट्रोल वापरून 5 जावा-आधारित प्रोजेक्ट पूर्ण केले.\n– 4 सदस्यांच्या व्हर्च्युअल टीममध्ये स्प्रिंट-आधारित असाइनमेंट पूर्ण केले, इन्फोसिस तज्ञांकडून मार्गदर्शन मिळाले."
                 }
-            ]
+            }
+            },
+
+        {
+          "icon": {
+            "img": "images/pictures/r3sys.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "08/01/2024",
+            "end": "10/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Backend Development** Intern",
+              "info": "R3Sys (Remote)",
+              "text": "Worked on a Java-based web application, focusing on backend service development and maintenance. Gained practical experience with Java, Servlets, JDBC, and web technologies. Collaborated on application logic, database integration, and feature enhancements for improved performance.",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            },
+            "hi": {
+              "title": "**बैकएंड डेवलपमेंट** इंटर्न",
+              "info": "R3Sys (रिमोट)",
+              "text": "जावा-आधारित वेब एप्लिकेशन पर काम किया, जिसमें बैकएंड सेवा विकास और रखरखाव पर ध्यान केंद्रित किया गया। जावा, सर्वलेट्स, JDBC और वेब तकनीकों के साथ व्यावहारिक अनुभव प्राप्त किया। प्रदर्शन सुधार के लिए एप्लिकेशन लॉजिक, डेटाबेस एकीकरण और फीचर संवर्द्धन पर सहयोग किया।",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            },
+            "mr": {
+              "title": "**बॅकएंड डेव्हलपमेंट** इंटर्न",
+              "info": "R3Sys (रिमोट)",
+              "text": "जावा-आधारित वेब अनुप्रयोगावर काम केले, विशेषतः बॅकएंड सेवा विकास आणि देखभालीवर लक्ष केंद्रित केले. Java, Servlets, JDBC आणि वेब तंत्रज्ञानासह व्यावहारिक अनुभव मिळाला. कार्यक्षमता सुधारण्यासाठी अनुप्रयोग लॉजिक, डेटाबेस एकत्रीकरण आणि फिचर सुधारणा यावर सहकार्य केले.",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -26,76 +26,71 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-table-columns",
-                        "faColors": {
-                            "bg": null,
-                            "fill": null
-                        }
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
                     },
+                    "value": null,
                     "locales": {
                         "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
+                            "title": "Frontend Development",
+                            "info": "Building responsive and interactive web applications."
                         },
                         "hi": {
-                            "title": "**वेबसाइट** डिज़ाइन",
-                            "text": "मैं आपके बेहतरीन विचारों को जीवन में उतार सकता हूँ!"
+                            "title": "फ्रंटएंड विकास",
+                            "info": "उत्तरदायी और इंटरैक्टिव वेब अनुप्रयोग बनाना।"
                         },
                         "mr": {
-                            "title": "**वेबसाइट** डिझाइन",
-                            "text": "मी तुमच्या सर्वोत्तम कल्पनांना प्रत्यक्षात आणू शकतो!"
+                            "title": "फ्रंटएंड विकास",
+                            "info": "प्रतिक्रियेक्षम आणि संवादात्मक वेब अनुप्रयोग तयार करणे."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {
-                            "bg": null,
-                            "fill": null
-                        }
+                        "fa": "fa-solid fa-server",
+                        "faColors": null
                     },
+                    "value": null,
                     "locales": {
                         "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
+                            "title": "Backend Development",
+                            "info": "Designing secure and scalable server-side systems."
                         },
                         "hi": {
-                            "title": "**डेटाबेस** प्रबंधन",
-                            "text": "मैं आपके डेटा को प्रभावी ढंग से संभाल सकता हूँ!"
+                            "title": "बैकएंड विकास",
+                            "info": "सुरक्षित और स्केलेबल सर्वर-साइड सिस्टम डिज़ाइन करना।"
                         },
                         "mr": {
-                            "title": "**डेटाबेस** व्यवस्थापन",
-                            "text": "मी तुमचा डेटा प्रभावीपणे हाताळू शकतो!"
+                            "title": "बॅकएंड विकास",
+                            "info": "सुरक्षित आणि विस्तारक्षम सर्व्हर-साइड प्रणाली डिझाइन करणे."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {
-                            "bg": null,
-                            "fill": null
-                        }
+                        "fa": "fa-brands fa-git-alt",
+                        "faColors": null
                     },
+                    "value": null,
                     "locales": {
                         "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
+                            "title": "Version Control (Git/GitHub)",
+                            "info": "Collaborating effectively with modern code management tools."
                         },
                         "hi": {
-                            "title": "सूचना **सुरक्षा**",
-                            "text": "सुरक्षा मेरा दूसरा नाम है!"
+                            "title": "संस्करण नियंत्रण (Git/GitHub)",
+                            "info": "आधुनिक कोड प्रबंधन टूल्स के साथ प्रभावी ढंग से सहयोग करना।"
                         },
                         "mr": {
-                            "title": "माहिती **सुरक्षा**",
-                            "text": "सुरक्षा हेच माझं दुसरं नाव आहे!"
+                            "title": "आवृत्ती नियंत्रण (Git/GitHub)",
+                            "info": "आधुनिक कोड व्यवस्थापन साधनांसह प्रभावीपणे सहयोग करणे."
                         }
                     }
                 }
             ]
+
         },
         {
             "id": "backend_programming",
@@ -150,7 +145,7 @@
                             "fill": "#EEE"
                         }
                     },
-                    "value": 100,
+                    "value": 90,
                     "dates": {
                         "start": null
                     },
@@ -206,7 +201,7 @@
                             "fill": "#EEE"
                         }
                     },
-                    "value": 100,
+                    "value": 80,
                     "dates": {
                         "start": null
                     },
@@ -226,33 +221,34 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {
-                            "bg": "#FFD700",
-                            "fill": "#111"
+                        "icon": {
+                            "img": null,
+                            "fa": "fa-brands fa-linux",
+                            "faColors": {
+                                "bg": "#000000",
+                                "fill": "#fff"
+                            }
+                        },
+                        "value": 80,
+                        "dates": {
+                            "start": null
+                        },
+                        "locales": {
+                            "en": {
+                                "title": "Linux",
+                                "info": null
+                            },
+                            "hi": {
+                                "title": "लिनक्स",
+                                "text": null
+                            },
+                            "mr": {
+                                "title": "लिनक्स",
+                                "text": null
+                            }
                         }
                     },
-                    "value": 80,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP",
-                            "info": null
-                        },
-                        "hi": {
-                            "title": "PHP",
-                            "text": null
-                        },
-                        "mr": {
-                            "title": "PHP",
-                            "text": null
-                        }
-                    }
-                },
+
                 {
                     "icon": {
                         "img": null,
@@ -336,7 +332,7 @@
                             "fill": "#EEE"
                         }
                     },
-                    "value": 100,
+                    "value": 85,
                     "dates": {
                         "start": null
                     },
@@ -364,7 +360,7 @@
                             "fill": "#EEE"
                         }
                     },
-                    "value": 85,
+                    "value": 80,
                     "dates": {
                         "start": null
                     },
@@ -392,7 +388,7 @@
                             "fill": "#111"
                         }
                     },
-                    "value": 90,
+                    "value": 80,
                     "dates": {
                         "start": null
                     },
@@ -420,7 +416,7 @@
                             "fill": "#111"
                         }
                     },
-                    "value": 95,
+                    "value": 65,
                     "dates": {
                         "start": null
                     },
@@ -448,7 +444,7 @@
                             "fill": null
                         }
                     },
-                    "value": 80,
+                    "value": 60,
                     "dates": {
                         "start": null
                     },

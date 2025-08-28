@@ -187,22 +187,22 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-spa",
+                        "fa": "fa-solid fa-utensils",
                         "faColors": null
                     },
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Meditation",
-                            "info": "Enhancing well-being through mindfulness and movement."
+                            "title": "Cooking",
+                            "info": "Experimenting with flavors and culinary creativity."
                         },
                         "hi": {
-                            "title": "ध्यान",
-                            "info": "सचेतता और गतिविधियों के माध्यम से भलाई को बढ़ावा देना।"
+                            "title": "खाना बनाना",
+                            "info": "स्वादों के साथ प्रयोग और पाक कला में रचनात्मकता।"
                         },
                         "mr": {
-                            "title": "ध्यान",
-                            "info": "सचेतपणा आणि हालचालींमधून कल्याण वाढवणे।"
+                            "title": "स्वयंपाक",
+                            "info": "चवींसोबत प्रयोग आणि पाककलेतील सर्जनशीलता।"
                         }
                     }
                 },
